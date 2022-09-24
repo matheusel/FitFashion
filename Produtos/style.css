@@ -94,3 +94,146 @@ div h1 {
 .atendimento{  
     align-items: center;
 }
+
+.cabecario {
+
+    height: 100px;
+    background-color: grey;
+    display: flex;
+    justify-content: space-between;
+
+}
+
+#fitfashionlogo {
+    height: 130px;
+    width: 350px;
+
+}
+
+#carrinhodeitens {
+    height: 100px;
+    width: 100px;
+}
+
+#barradepesquisa {
+    height: 100px;
+    width: 500px;
+    padding-top: 40px;
+
+}
+
+#pesquisa {
+    width: 500px;
+    height: 25px;
+}
+
+.main {
+    width: 100%;
+}
+
+#produtosh5{
+    font-family: 'Bebas Neue', cursiva;
+    font-size: 50PX;
+    margin-bottom: 0
+}
+
+.produtoscontainer {
+
+    height: fit-content;
+    width: 100%;
+
+}
+
+#categorytext {
+    background-color: grey;
+    font-size: 30px;
+    width: 100%;
+    text-align: center;
+    margin-top: auto;
+    margin-bottom: 0;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.categorias {
+    width: fit-content;
+    margin-top: auto;
+    display: flex;
+    
+}
+
+.categorias div {
+    padding: 10px;
+    font-size: larger;
+    
+    
+}
+
+.categorias div:hover {
+   
+border-bottom:orange 5px solid;
+}
+
+.todososprodutos {
+
+    margin: 50px 50px 50px 50px;
+    display: flex;
+    flex-wrap:wrap;
+    height: 100%;
+    width: 1200px;
+    margin: auto;
+    justify-content: center;
+    padding-top: 50px;
+}
+
+.produto {
+    border: solid rgb(190, 187, 187) 1px;
+    height: fit-content;
+    margin-top: 10px;
+    margin-left: 10px;
+    box-shadow: black 1px 2px 0px;
+    border-radius: 25px;
+}
+
+.produto p {
+    font-size: 15px;
+    padding: 5px;
+    font-weight: bold;
+    text-align: center;
+
+}
+
+.produto h1 {
+    font-size: 15px;
+    font-weight: 200;
+    padding: 5px;
+    text-align: center;
+}
+
+.produto:hover {
+    color: orange;
+    border: 1.5px solid black;
+    font-size: 15px;
+    padding:5px 5px 5px 5px;
+}
+
+.imgproduto {
+    height: 200px;
+    width: 200px;
+    margin-top: 10px;
+    margin-left: 5px;
+    margin-right: 5px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
