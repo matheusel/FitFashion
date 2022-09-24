@@ -20,7 +20,7 @@ header {
     background-color: black;
 }
 
-/* Barra de Navegação */
+/* Barra de Navegação (Matheus) */
 
 header .container {
     height: 75px;
@@ -56,4 +56,41 @@ nav ul li a:hover {
 
 div h1 {
     color: #fff;
+}
+
+/* Rodapé da Página (Valesca) */
+
+.footer-container{
+    display: flex;
+    flex-direction: row;
+    position: absolute;
+    bottom: 0;
+    background-color:#8F9490;
+    width: 100%;
+    height: 10rem;
+    align-items: center;
+    justify-content: space-evenly;
+    color:black;
+}
+.informacoes a{
+    text-decoration:none;
+    color:black;
+}
+.informacoes a:hover{
+    color:#EF3A07;
+}
+.informacoes li{
+    list-style: none; 
+
+}
+.informacoes{
+   flex-direction: column;
+   justify-content:flex-start;
+   align-items: flex-start;
+   text-align:start;
+   
+}
+
+.atendimento{  
+    align-items: center;
 }
