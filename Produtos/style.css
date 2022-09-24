@@ -63,7 +63,7 @@ div h1 {
 .footer-container{
     display: flex;
     flex-direction: row;
-    position: absolute;
+    position: relative;
     bottom: 0;
     background-color:#8F9490;
     width: 100%;
