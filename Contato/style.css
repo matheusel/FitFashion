@@ -106,14 +106,22 @@ main h2{
 }
 #formulario{
     margin-bottom: 1rem;
+    
 }
 #mensagem{
     height: 6rem;
+    border-radius: 10px;
+    box-shadow: 5px 5px #666666;
 }
 .caixinhas{
     height: 3rem;
+    box-shadow: 5px 5px #666666;
 }
 
+button {
+    border-radius: 10px;
+    box-shadow: 5px 5px #666666;
+}
 /* Rodapé da Página (Valesca) */
 
 .footer-container{

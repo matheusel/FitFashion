@@ -244,7 +244,7 @@ footer strong{
 
     height: fit-content;
     width: 100%;
-    margin-top:100px
+    margin-top: auto;
 
 }
 
@@ -258,13 +258,15 @@ footer strong{
     margin-bottom: 0;
     padding-top: 10px;
     padding-bottom: 10px;
+    font-family: "Poppins";
 }
 
 .categorias {
-
+    
     margin-top: auto;
     display: flex;
-    justify-content:center
+    justify-content:center;
+    font-family: "Poppins";
     
 }
 
@@ -282,23 +284,25 @@ border-bottom:#ff9000 5px solid;
 
 .todososprodutos {
 
-    margin: 50px 50px 50px 50px;
+    /* margin: 50px 50px 50px 50px; */
     display: flex;
     flex-wrap:wrap;
     height: 100%;
-    width: 1200px;
+    width: 100%;
     margin: auto;
     justify-content: center;
-    padding-top: 50px;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    font-family: "Poppins";
+    /* border: solid rgb(190, 187, 187) 1px; */
 }
 
 .produto {
-    border: solid rgb(190, 187, 187) 1px;
+    /* border: solid rgb(190, 187, 187) 1px; */
     height: fit-content;
-    margin-top: 10px;
-    margin-left: 10px;
-    box-shadow: black 1px 2px 0px;
-    border-radius: 25px;
+    margin: 40px;
+    /* box-shadow: black 1px 2px 0px; */
+    border-radius: 20px;
 }
 
 .produto p {
@@ -321,6 +325,7 @@ border-bottom:#ff9000 5px solid;
     border: 1.5px solid black;
     font-size: 15px;
     padding:5px 5px 5px 5px;
+
 }
 
 .imgproduto {
