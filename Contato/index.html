@@ -1,10 +1,11 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-BR">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>FitFashion</title>
     <link rel="stylesheet" href="./style.css">
 
 
@@ -14,60 +15,93 @@
 <body>
 
     <header>
-        
-        <div class="container">
-           
-           <div>
-                <h1>Logotipo</h1>
-           </div>
 
-           <div class="menu">
+        <div class="container">
+
+            <div>
+                <h1>Logotipo</h1>
+            </div>
+
+            <div class="menu">
                 <nav>
                     <ul>
-                        <li><a href="#quem-somos">Home</a></li>
-                        <li><a href="#produtos">Produtos</a></li>
-                        <li><a href="#nossa-equipe">Equipe</a></li>
-                        <li><a href="#contato">Contato</a></li>
+                        <li><a href="../index.html">Home</a></li>
+                        <li><a href="../Produtos/index.html">Produtos</a></li>
+                        <li><a href="../Equipe/index.html">Equipe</a></li>
+                        <li><a href="index.html">Contato</a></li>
                     </ul>
                 </nav>
-           </div>
+            </div>
 
 
         </div>
 
     </header>
+    <!-- #página de contato: Valesca-->
+    <main>
+        <div class="contato-container">
+                <div class="segundo-container">
+                    <div class="localizacao">
+                        <h1>Localização</h1>
+                        <p id="endereco">Rua aleatória, Nº 123 <br />
+                            Madureira - Rio de Janeiro - RJ</p>
+                    </div>
 
+                    <h1>Siga-nos</h1>
+                    <div class="rede-social">
+                        <a href="#"><img src="../src/ícones/facebook-icon.svg"></a>
+                        <a id="icon" href="#"><img src="../src/ícones/intagram-icon.svg"></a>
+                    </div>
+                </div>
+               <div class="contato-form">
+                <h1 id="formulario">Formulário de Contato</h1>
+                <input class="caixinhas" type="text" placeholder="Nome">
+                <input class="caixinhas" type="text" placeholder="Telefone">
+                <input class="caixinhas" type="text" placeholder="E-mail">
+                <input id="mensagem" type="text" placeholder="Digite sua mensagem...">
+                <button>Enviar</button>
+               </div> 
+
+
+
+            </div>
+        </div>
+    </main>
+
+    <!-- #footer: Valesca-->
     <footer class=" footer-container">
-        <div>
-            <h3>ATENDIMENTO</h3>
-            <p>
-                Seg a sex - 08:00 - 18:00 horas<br/>
-                WhatsApp: (12)3456-7890 <br/>
-                Sac: (09)87654-3210 <br/>
-                e-mail:fitfashion@gmail.com
+        <div class="logo">
+            <img id="logo" src="../src/logo/logo.png" alt="logo">
+        </div>
+        <div class="atendimento">
+            <h1 class="titulos">ATENDIMENTO</h1>
+            <p id="atendimento-info">
+                Seg a sex - 08:00 - 18:00 horas<br />
+                <strong>WhatsApp:</strong> (12)3456-7890 <br />
+                <strong>Sac:</strong> (09)87654-3210 <br />
+                <strong>e-mail:</strong> fitfashion@gmail.com
             </p>
         </div>
         <div class="informacoes">
-                    <h3>INFORMAÇÕES </h3>
-                <nav>   
-                    <ul>
+            <h1 class="titulos">INFORMAÇÕES </h1>
+            <nav>
+                <ul class="list">
                     <li><a href="#">Perguntas frequentes</a> </li>
-                    <li><a href="#">Prazo de envio e entrega</a> </li> 
+                    <li><a href="#">Prazo de envio e entrega</a> </li>
                     <li><a href="#">Trocas e devoluções</a> </li>
                     <li><a href="#">Promoções e cupons</a> </li>
-                    </ul>
-                </nav>
+                </ul>
+            </nav>
         </div>
-                <div class="redes-sociais">
-                    <h3> REDES SOCIAIS</h3>
-                    <a href="#"><img src="./src/img/insta.png" width="40.5px"></a>
-                    <a href="#"><img src="./src/img/email.png"width= "40px"></a>
-                    <a href="#"><img src="./src/img/facebook.png" width="40px"></a>
-                    
-                </div>
-                
+        <div class="redes-sociais">
+            <h1 class="titulos"> REDES SOCIAIS</h1>
+            <div class="lista-icone">
+                <a href="#"><img id="insta" src="../src/ícones/insta.svg"></a>
+                <a href="#"><img src="../src/ícones/facebook.svg"></a>
+                <a href="#"><img src="../src/ícones/envelope.svg"></a>
+            </div>
+        </div>
     </footer>
-        
-  
 </body>
+
 </html>
