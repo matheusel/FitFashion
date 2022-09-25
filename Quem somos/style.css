@@ -65,32 +65,128 @@ div h1 {
     flex-direction: row;
     position: absolute;
     bottom: 0;
-    background-color:#8F9490;
+    background-color: #666666;
     width: 100%;
-    height: 10rem;
+    height: 16.5rem;
     align-items: center;
-    justify-content: space-evenly;
-    color:black;
+    justify-content: space-around;
+    color:white;  
+}
+footer h1{
+    font-size: 2rem;
+    color: #FF7800;
+}
+.titulos{
+    margin-bottom: 1rem;
+}
+#atendimento-info{
+    line-height: 2rem;
+}
+#logo{
+    width: 10rem;    
 }
 .informacoes a{
     text-decoration:none;
-    color:black;
+    color:white;
 }
 .informacoes a:hover{
-    color:#EF3A07;
+    color:#FF7800;
 }
 .informacoes li{
     list-style: none; 
-
+}
+.list{
+    line-height: 2rem;
 }
 .informacoes{
+    display: flex;
    flex-direction: column;
    justify-content:flex-start;
    align-items: flex-start;
-   text-align:start;
-   
+   text-align:start;   
 }
-
 .atendimento{  
     align-items: center;
+}
+.redes-sociais img{
+    width: 30px;
+    
+}
+.redes-sociais{
+   display: flex;
+   flex-direction: column;
+}
+.lista-icone{
+    display: flex;
+    justify-content: space-between;
+}
+footer h3{
+    color:#FF7800;
+}
+footer strong{
+    color: #FF7800;
+}
+@media screen and (max-width:599px) {
+    .footer-container{
+        display: flex;
+        flex-direction: column;
+        position: absolute;
+        bottom: 0;
+        overflow-y: auto;
+        background-color: #666666;
+        width: 100%;
+        min-height: 320px;
+        align-items: center;
+        justify-content: space-around;
+        color:white;    
+    }
+    #logo{
+        width: 8rem;    
+    }
+    .atendimento{ 
+        display: flex; 
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: center;
+        font-size: 1.5rem;
+        align-items: center;
+    }
+    .informacoes a{
+        text-decoration:none;
+        color:white;
+    }
+    .informacoes a:hover{
+        color:#FF7800;
+    }
+    .informacoes li{
+        list-style: none; 
+    }
+    .informacoes{
+        display: flex;
+       flex-direction: column;
+       justify-content:flex-start;
+       align-items: center;
+       text-align:center;
+       font-size: 1.5rem;   
+    }
+    .redes-sociais img{
+        width: 15px;   
+    }
+    .redes-sociais{
+       display: flex;
+       flex-direction: column;
+       font-size: 1.5rem;
+    }
+    .lista-icone{
+        display: flex;
+        justify-content: space-between;
+    }
+footer h3{
+        color:#FF7800;
+        font-size: 1.5rem;
+    }
+footer strong{
+        color: #FF7800;
+        font-size: 1.5rem;
+}
 }
