@@ -34,30 +34,48 @@ header .container {
     margin: auto;
 }
 
-nav ul {
+header nav ul {
     display: flex;
 
 }
 
-nav ul li {
+header nav ul li {
     list-style: none;
     margin-left: 20px;
 }
 
-nav ul li a {
+header nav ul li a {
     text-decoration: none;
     color: white;
     margin-left: 20px;
     transition: 0.2s;
+    font-family: "Poppins";
 }
 
-nav ul li a:hover {
+header nav ul li a:hover {
     color: #ff9000;
     font-size: 20px;
 }
 
-div h1 {
-    color: #fff;
+header div img {
+    width: 8rem;
+    transition: 0.2s;
+}
+
+header div img:hover {
+    width: 8.5rem;
+}
+
+#Lupa {
+    color: white;
+    filter: invert(1);
+    width: 3.0rem;
+}
+
+#Carrinho {
+    color: white;
+    filter: invert(1);
+    width: 3.0rem;
 }
 
 /* Rodapé da Página (Valesca) */

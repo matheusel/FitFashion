@@ -61,8 +61,25 @@ header nav ul li a:hover {
     font-size: 20px;
 }
 
-header div h1 {
-    color: #fff;
+header div img {
+    width: 8rem;
+    transition: 0.2s;
+}
+
+header div img:hover {
+    width: 8.5rem;
+}
+
+#Lupa {
+    color: white;
+    filter: invert(1);
+    width: 3.0rem;
+}
+
+#Carrinho {
+    color: white;
+    filter: invert(1);
+    width: 3.0rem;
 }
 
 /* Página de contato (Valesca) */
