@@ -8,7 +8,9 @@
 html {
     font-size: 62.5%;
 }
-html, body {
+
+html,
+body {
     height: 100%;
 }
 
@@ -34,7 +36,7 @@ header .container {
 
 nav ul {
     display: flex;
-    
+
 }
 
 nav ul li {
@@ -60,7 +62,7 @@ div h1 {
 
 /* Rodapé da Página (Valesca) */
 
-.footer-container{
+.footer-container {
     display: flex;
     flex-direction: row;
     position: absolute;
@@ -70,123 +72,153 @@ div h1 {
     height: 16.5rem;
     align-items: center;
     justify-content: space-around;
-    color:white;  
+    color: white;
+    font-family: "Poppins"
 }
-footer h1{
+
+footer h1 {
     font-size: 2rem;
     color: #FF7800;
 }
-.titulos{
+
+.titulos {
     margin-bottom: 1rem;
 }
-#atendimento-info{
-    line-height: 2rem;
+
+#atendimento-info {
+    line-height: 2.5rem;
 }
-#logo{
-    width: 10rem;    
+
+#logo {
+    width: 10rem;
 }
-.informacoes a{
-    text-decoration:none;
-    color:white;
+
+.informacoes a {
+    text-decoration: none;
+    color: white;
 }
-.informacoes a:hover{
-    color:#FF7800;
+
+.informacoes a:hover {
+    color: #FF7800;
 }
-.informacoes li{
-    list-style: none; 
+
+.informacoes li {
+    list-style: none;
 }
-.list{
-    line-height: 2rem;
+
+.list {
+    line-height: 2.5rem;
 }
-.informacoes{
+
+.informacoes {
     display: flex;
-   flex-direction: column;
-   justify-content:flex-start;
-   align-items: flex-start;
-   text-align:start;   
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    text-align: start;
 }
-.atendimento{  
+
+.atendimento {
     align-items: center;
 }
-.redes-sociais img{
+
+.redes-sociais img {
     width: 30px;
-    
+
 }
-.redes-sociais{
-   display: flex;
-   flex-direction: column;
+
+.redes-sociais {
+    display: flex;
+    flex-direction: column;
 }
-.lista-icone{
+
+.lista-icone {
     display: flex;
     justify-content: space-between;
 }
-footer h3{
-    color:#FF7800;
-}
-footer strong{
+
+footer h3 {
     color: #FF7800;
 }
+
+footer strong {
+    color: #FF7800;
+}
+
+/*responsividade: Valesca*/
 @media screen and (max-width:599px) {
-    .footer-container{
+    .footer-container {
         display: flex;
         flex-direction: column;
-        position: absolute;
+        position: fixed;
         bottom: 0;
         overflow-y: auto;
         background-color: #666666;
         width: 100%;
-        min-height: 320px;
+        height: 35%;
         align-items: center;
         justify-content: space-around;
-        color:white;    
+        color: white;
+        font-family: "Poppins"
     }
-    #logo{
-        width: 8rem;    
+
+    #logo {
+        width: 8rem;
     }
-    .atendimento{ 
-        display: flex; 
+
+    .atendimento {
+        display: flex;
         flex-direction: column;
         justify-content: flex-start;
         align-items: center;
         font-size: 1.5rem;
         align-items: center;
     }
-    .informacoes a{
-        text-decoration:none;
-        color:white;
+
+    .informacoes a {
+        text-decoration: none;
+        color: white;
     }
-    .informacoes a:hover{
-        color:#FF7800;
+
+    .informacoes a:hover {
+        color: #FF7800;
     }
-    .informacoes li{
-        list-style: none; 
+
+    .informacoes li {
+        list-style: none;
     }
-    .informacoes{
+
+    .informacoes {
         display: flex;
-       flex-direction: column;
-       justify-content:flex-start;
-       align-items: center;
-       text-align:center;
-       font-size: 1.5rem;   
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: center;
+        text-align: center;
+        font-size: 1.5rem;
     }
-    .redes-sociais img{
-        width: 15px;   
+
+    .redes-sociais img {
+        width: 15px;
     }
-    .redes-sociais{
-       display: flex;
-       flex-direction: column;
-       font-size: 1.5rem;
+
+    .redes-sociais {
+        display: flex;
+        flex-direction: column;
+        font-size: 1.5rem;
     }
-    .lista-icone{
+
+    .lista-icone {
         display: flex;
         justify-content: space-between;
     }
-footer h3{
-        color:#FF7800;
-        font-size: 1.5rem;
-    }
-footer strong{
+
+    footer h3 {
         color: #FF7800;
         font-size: 1.5rem;
-}
+    }
+
+    footer strong {
+        color: #FF7800;
+        font-size: 1.5rem;
+    }
 }
