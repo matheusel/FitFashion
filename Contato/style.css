@@ -9,13 +9,17 @@
 
 html {
     font-size: 62.5%;
+    height: 100%;
 }
-html, body {
+
+html,
+body {
     height: 100%;
 }
 
 body {
     font-size: 1.6rem;
+    background-color: #E4E4E4;
 }
 
 header {
@@ -36,7 +40,7 @@ header .container {
 
 header nav ul {
     display: flex;
-    
+
 }
 
 header nav ul li {
@@ -62,69 +66,85 @@ header div h1 {
 }
 
 /* Página de contato (Valesca) */
-.contato-container{
+.contato-container {
     display: flex;
     width: 100%;
     height: 30rem;
     background-color: #FA8124;
     flex-direction: row;
-    color:white;
-    margin-top: auto;
+    color: white;
+    margin-top: 8rem;
     justify-content: space-around;
     align-items: center;
     font-family: "Poppins";
 
+
 }
-.segundo-container{
+
+.segundo-container {
     display: flex;
     flex-direction: column;
     gap: 1.5rem;
 }
-#endereco{
+
+#endereco {
     margin-top: 1rem;
 }
-.rede-social{
+
+.rede-social {
     display: flex;
 
-   
+
 }
-#icon{
+
+#icon {
     margin-left: 1.5rem;
 }
-.contato-form{
+
+.contato-form {
     display: flex;
     flex-direction: column;
     gap: 0.5rem;
 
 }
-main h1{
-font-size: 2.5rem;
+
+main h1 {
+    font-size: 2.5rem;
 }
-main h2{
+
+main h2 {
     font-size: 1.5rem;
-    
+
 }
-#formulario{
+
+#formulario {
     margin-bottom: 1rem;
-    
+
 }
-#mensagem{
+
+#mensagem {
     height: 6rem;
     border-radius: 10px;
-    box-shadow: 5px 5px #666666;
+    box-shadow: 2.5px 2.5px;
+    color: #666666;
 }
-.caixinhas{
+
+.caixinhas {
     height: 3rem;
-    box-shadow: 5px 5px #666666;
+    box-shadow: 2.5px 2.5px;
+    border-radius: 10px;
+    color: #666666;
 }
 
 button {
     border-radius: 10px;
-    box-shadow: 5px 5px #666666;
+    box-shadow: 2.5px 2.5px;
+    color: #666666;
 }
+
 /* Rodapé da Página (Valesca) */
 
-.footer-container{
+.footer-container {
     display: flex;
     flex-direction: row;
     position: absolute;
@@ -134,125 +154,235 @@ button {
     height: 16.5rem;
     align-items: center;
     justify-content: space-around;
-    color:white; 
+    color: white;
+    font-family: "Poppins"
 }
-footer h1{
+
+footer h1 {
     font-size: 2rem;
     color: #FF7800;
 }
-.titulos{
+
+.titulos {
     margin-bottom: 1rem;
 }
-#atendimento-info{
-    line-height: 2rem;
+
+#atendimento-info {
+    line-height: 2.5rem;
 }
-#logo{
-    width: 10rem;    
+
+#logo {
+    width: 10rem;
 }
-.informacoes a{
-    text-decoration:none;
-    color:white;
+
+.informacoes a {
+    text-decoration: none;
+    color: white;
 }
-.informacoes a:hover{
-    color:#FF7800;
+
+.informacoes a:hover {
+    color: #FF7800;
 }
-.informacoes li{
-    list-style: none; 
+
+.informacoes li {
+    list-style: none;
 }
-.list{
-    line-height: 2rem;
+
+.list {
+    line-height: 2.5rem;
 }
-.informacoes{
+
+.informacoes {
     display: flex;
-   flex-direction: column;
-   justify-content:flex-start;
-   align-items: flex-start;
-   text-align:start;   
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    text-align: start;
 }
-.atendimento{  
+
+.atendimento {
     align-items: center;
 }
-.redes-sociais img{
+
+.redes-sociais img {
     width: 30px;
-    
+
 }
-.redes-sociais{
-   display: flex;
-   flex-direction: column;
+
+.redes-sociais {
+    display: flex;
+    flex-direction: column;
 }
-.lista-icone{
+
+.lista-icone {
     display: flex;
     justify-content: space-between;
 }
-footer h3{
-    color:#FF7800;
-}
-footer strong{
+
+footer h3 {
     color: #FF7800;
 }
+
+footer strong {
+    color: #FF7800;
+}
+
+/*responsividade: Valesca*/
+
 @media screen and (max-width:599px) {
-    .footer-container{
+    .contato-container {
+        display: flex;
+        width: 100%;
+        height: 45rem;
+        background-color: #FA8124;
+        flex-direction: column;
+        color: white;
+        margin-top: 25%rem;
+        justify-content: center;
+        align-items: center;
+        font-family: "Poppins";
+
+    }
+
+    .segundo-container {
         display: flex;
         flex-direction: column;
-        position: absolute;
+        gap: 1.5rem;
+        font-size: 2rem;
+        align-items: center;
+
+    }
+
+    #endereco {
+        margin-top: 1rem;
+        align-items: center;
+    }
+
+    .rede-social {
+        display: flex;
+
+
+    }
+
+    #icon {
+        margin-left: 1rem;
+    }
+
+    .contato-form {
+        display: flex;
+        flex-direction: column;
+        gap: 0.5rem;
+
+    }
+
+    main h1 {
+        font-size: 2rem;
+
+    }
+
+    main h2 {
+        font-size: 2rem;
+
+
+    }
+
+    #formulario {
+        margin-bottom: 1rem;
+
+    }
+
+    #mensagem {
+        height: 4.5rem;
+        border-radius: 10px;
+        box-shadow: 2.5px 2.5px;
+        color: #666666;
+    }
+
+    .caixinhas {
+        height: 3rem;
+        box-shadow: 2.5px 2.5px;
+        border-radius: 10px;
+        color: #666666;
+    }
+
+    button {
+        border-radius: 10px;
+        box-shadow: 2.5px 2.5px;
+        color: #666666;
+    }
+
+    .footer-container {
+        display: flex;
+        flex-direction: column;
+        position: fixed;
         bottom: 0;
         overflow-y: auto;
         background-color: #666666;
         width: 100%;
-        min-height: 320px;
+        height: 35%;
         align-items: center;
         justify-content: space-around;
-        color:white;    
+        color: white;
+        font-family: "Poppins"
     }
-    #logo{
+
+    #logo {
         width: 8rem;
     }
-    .atendimento{ 
-        display: flex; 
+
+    .atendimento {
+        display: flex;
         flex-direction: column;
         justify-content: flex-start;
         align-items: center;
         font-size: 1.5rem;
         align-items: center;
     }
-    .informacoes a{
-        text-decoration:none;
-        color:white;
+
+    .informacoes a {
+        text-decoration: none;
+        color: white;
     }
-    .informacoes a:hover{
-        color:#FF7800;
+
+    .informacoes a:hover {
+        color: #FF7800;
     }
-    .informacoes li{
-        list-style: none; 
+
+    .informacoes li {
+        list-style: none;
     }
-    .informacoes{
+
+    .informacoes {
         display: flex;
-       flex-direction: column;
-       justify-content:flex-start;
-       align-items: center;
-       text-align:center;
-       font-size: 1.5rem;   
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: center;
+        text-align: center;
+        font-size: 1.5rem;
     }
-    .redes-sociais img{
-        width: 15px;   
+
+    .redes-sociais img {
+        width: 15px;
     }
-    .redes-sociais{
-       display: flex;
-       flex-direction: column;
-       font-size: 1.5rem;
+
+    .redes-sociais {
+        display: flex;
+        flex-direction: column;
+        font-size: 1.5rem;
     }
-    .lista-icone{
+
+    .lista-icone {
         display: flex;
         justify-content: space-between;
     }
-footer h3{
-        color:#FF7800;
-        font-size: 1.5rem;
-    }
-footer strong{
+
+    footer h3 {
         color: #FF7800;
         font-size: 1.5rem;
-}
-}
+    }
 
-
+    footer strong {
+        color: #FF7800;
+        font-size: 1.5rem;
+    }
+}
