@@ -58,7 +58,7 @@ header nav ul li a {
 
 header nav ul li a:hover {
     color: #ff9000;
-    font-size: 20px;
+    font-size: 2rem;
 }
 
 header div img {
@@ -70,16 +70,53 @@ header div img:hover {
     width: 8.5rem;
 }
 
-#Lupa {
+#Lupa, #Carrinho, #Favoritos {
     color: white;
     filter: invert(1);
     width: 3.0rem;
+    transition: 0.2s;
 }
 
-#Carrinho {
+#Lupa:hover, #Carrinho:hover, #Favoritos:hover {
     color: white;
     filter: invert(1);
-    width: 3.0rem;
+    width: 3.3rem;
+}
+
+/* header .navIcons {
+    
+} */
+
+@media (max-width: 964px) {
+    html {
+        font-size: 50%;
+    }
+    
+}
+
+@media (max-width: 809px) {
+    html {
+        font-size: 40%;
+    }
+    
+}
+
+@media (max-width: 709px) {
+    header nav, header .navIcons {
+        display: none;
+    }
+
+    .one, .two, .tree {
+        background-color: #FF7800;
+        height: 4px;
+        width: 100%;
+        margin: 6px auto;
+    }
+
+    .menuCelular {
+        width: 40px;
+        height: 30px;
+    }
 }
 
 /* Página de contato (Valesca) */
@@ -151,6 +188,10 @@ main h2 {
     box-shadow: 2.5px 2.5px;
     border-radius: 10px;
     color: #666666;
+}
+
+.caixinhas:hover, #mensagem:hover, .contato-form button:hover {
+    background-color: #ffffffd5;
 }
 
 button {
