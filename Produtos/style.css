@@ -384,34 +384,57 @@ footer strong {
     /* border: solid rgb(190, 187, 187) 1px; */
 }
 
+.comprar {
+    border-radius: 3px;
+    margin: 7px;
+    font-family: 'Bebas Neue', cursiva;
+}
+
 .produto {
     /* border: solid rgb(190, 187, 187) 1px; */
     height: fit-content;
     margin: 40px;
     /* box-shadow: black 1px 2px 0px; */
     border-radius: 20px;
+    height: 500px;
 }
 
 .produto p {
     font-size: 15px;
     padding: 5px;
     font-weight: bold;
-    text-align: center;
+    
 
 }
 
 .produto h1 {
     font-size: 15px;
-    font-weight: 200;
+    font-weight: 100;
     padding: 5px;
-    text-align: center;
+    color: gray;
 }
 
 .produto:hover {
-    color: orange;
+    color: red  ;
     box-shadow: 0 10px 10px 10px #6666666e;
     font-size: 15px;
     transition: 0.1s;
+}
+
+.sacolaproduto{
+    height: 30px;
+    width: 30px;
+    margin: 10px;
+    position:relative;
+    left: 80%;
+}
+
+.favoritoproduto {
+    height: 30px;
+    width: 30px;
+
+    position: relative;
+    
 }
 
 .imgproduto {

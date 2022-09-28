@@ -18,7 +18,6 @@ body {
 
 body {
     font-size: 1.6rem;
-    background-color: #ff9000;
 }
 
 header {
@@ -118,57 +117,51 @@ header div img:hover {
     }
 }
 
-.container-main {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    width: 100%;
-    height: 55.5rem;
-    bottom: 0;
-    position: static;
-    font-family: "Poppins";
-    
+.conteudo {
+    margin: 48px;
 }
 
-.principal {
+.conteudo-principal {
     display: flex;
-    flex-direction: row-reverse;
+    flex-direction: row;
     align-items: center;
     justify-content: space-around;
-    margin: 50px 500px;
-    padding: 25px;
-
+    font-family: "Poppins";
 }
 
-.apresentacao {
+.card-texto {
+    width: 750px;
+    height: 380px;
+    border-radius: 15px;
+    background-color: #ff9000;
+    box-shadow: 0 10px 10px 10px #6666666e;
+}
+
+.conteudo-principal-escrito {
     display: flex;
     flex-direction: column;
-    margin: 0 60px;
-    margin-bottom: 20px;
-    background: #ffffff30;
-    border: #ffffff30 solid 2px;
-    padding: 50px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-    border-radius: 6px;
-    margin-inline-start: auto;
+    gap: 20px;
 }
 
-.resumo {
+.conteudo-principal-titulo {
+    color: #EBE2C5;
+    font-family: ;
+    font-size: 40px;
     text-align: center;
-    margin: 30px;
-    margin-top: 5px;
-    border-bottom: 0.2px solid black;
-    color: black;
-    font-size: 35px;
-   
+    border-bottom: #666666 solid 0.3px;
 }
 
-.conteudo-text {
-    color: black;
-    font-size: 17px;
-    text-align: justify;
-    text-indent: 20px;
-   line-height:normal;
+.conteudo-principal-texto {
+    font-weight: 0;
+    font-size: 20px;
+    text-align: center;
+    color:#fff;
+
+}
+
+.conteudo-principal-imagem {
+    width: 500px;
+    height: 500px;
 }
 
 /* Rodapé da Página (Valesca) */
