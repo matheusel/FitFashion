@@ -2,6 +2,7 @@
 <div align="center">
 <i><h6>Projeto desenvolvido para a Resilia com parceria como o Senac para o programa Programadores Cariocas.<br></br>
 </div>
+
 ## 💬Projeto construído em HTML, CSS e JAVASCRIPT <br>
   Tema: Loja de roupa de academia <br>
   https://matheusel.github.io/FitFashion/index.html
