@@ -348,6 +348,7 @@ footer strong {
     align-items: center;
     justify-content: space-around;
     min-height: 100vh;
+    flex-wrap: wrap;
 }
 
 .container-equipe{
@@ -355,6 +356,7 @@ footer strong {
     padding: 20px;
     align-items: center;
     justify-content: center;
+    flex-wrap: wrap;
 }
 
 .card{
@@ -369,6 +371,7 @@ footer strong {
     overflow: hidden;
     transition: 0.5s;
     text-align: center;
+    flex-wrap: wrap;
 }
 
 .img{
