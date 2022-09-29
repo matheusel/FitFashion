@@ -192,6 +192,7 @@ header div img:hover {
 }
 
 .card-texto {
+    display: flex;
     width: 750px;
     height: 380px;
     border-radius: 15px;
@@ -207,7 +208,6 @@ header div img:hover {
 
 .conteudo-principal-titulo {
     color: #EBE2C5;
-    font-family: ;
     font-size: 40px;
     text-align: center;
     border-bottom: #666666 solid 0.3px;
@@ -215,7 +215,7 @@ header div img:hover {
 
 .conteudo-principal-texto {
     font-weight: 0;
-    font-size: 20px;
+    font-size: 15px;
     text-align: center;
     color: #fff;
 
@@ -444,3 +444,87 @@ footer strong {
        line-height:normal;
     }
 } */
+
+@media (max-width: 1300px) {
+    .conteudo-principal-titulo {
+        color: #EBE2C5;
+        font-size: 35px;
+        text-align: center;
+        border-bottom: #666666 solid 0.3px;
+    }
+    
+    .conteudo-principal-texto {
+        font-weight: 0;
+        font-size: 13px;
+        text-align: center;
+        color: #fff;
+    
+    }
+
+    .conteudo-principal-imagem {
+        width: 300px;
+        height: 300px;
+    }
+
+    .conteudo-principal-escrito {
+        display: flex;
+        flex-direction: column;
+        gap: 13px;
+    }
+}
+
+@media (max-width: 906px) {
+    .conteudo-principal-titulo {
+        color: #EBE2C5;
+        font-size: 30px;
+        text-align: center;
+        border-bottom: #666666 solid 0.3px;
+    }
+    
+    .conteudo-principal-texto {
+        font-weight: 0;
+        font-size: 9px;
+        text-align: center;
+        color: #fff;
+    
+    }
+
+    .conteudo-principal-imagem {
+        width: 200px;
+        height: 200px;
+    }
+
+    .conteudo-principal-escrito {
+        display: flex;
+        flex-direction: column;
+        gap: 15px;
+    }
+}
+
+@media (max-width: 709px) {
+    .conteudo-principal-titulo {
+        color: #EBE2C5;
+        font-size: 25px;
+        text-align: center;
+        border-bottom: #666666 solid 0.3px;
+    }
+    
+    .conteudo-principal-texto {
+        font-weight: 0;
+        font-size: 7px;
+        text-align: center;
+        color: #fff;
+    
+    }
+
+    .conteudo-principal-imagem {
+        width: 200px;
+        height: 200px;
+    }
+
+    .conteudo-principal-escrito {
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+    }
+}

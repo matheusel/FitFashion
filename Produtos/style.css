@@ -490,7 +490,8 @@ footer strong {
     position: relative;
     left: 270px;
     align-items: center;
-    transition-duration: 2s;
+    transition-duration: 1.5s;
+    border-radius: 10px;
 }
 
 .favoritoproduto {
@@ -500,13 +501,18 @@ footer strong {
     position: relative;
     left: -25px;
     align-items: center;
-    transition-duration: 2s;
+    transition-duration: 1.5s;
+    border-radius: 10px;
 }
 
 .sacolaproduto:hover {
     transform: rotate(-360deg);
+    background-color: #ff910075;
+    padding: 10px;
 }
 
 .favoritoproduto:hover {
     transform: rotate(360deg);
+    background-color: #ff910075;
+    padding: 10px;
 }

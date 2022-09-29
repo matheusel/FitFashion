@@ -1,9 +1,9 @@
-const menuCelular = document.getElementsByClassName('menu');
+let show = true
 
-function menuzin() {
-    const nav = document.getElementsByClassName('menu');
-    nav.classList.toggle('on')
-}
+const menuSection = document.querySelector('.menu')
+const menuCelular = menuSection.querySelector('.menuCelular')
 
-
-menuCelular.addEventListener('click', menuzin);
+menuCelular.addEventListener('click', () => {
+  menuSection.classList.toggle("on", show)
+  show = !show
+});
