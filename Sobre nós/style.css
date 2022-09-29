@@ -109,12 +109,66 @@ header div img:hover {
         height: 4px;
         width: 100%;
         margin: 6px auto;
+        transition: 0.3s;
     }
 
     .menuCelular {
         width: 40px;
         height: 30px;
     }
+
+    .menu.on {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100vw;
+        height: 100vh;
+        background-color: #666666;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .menu.on nav {
+        display: block;
+    }
+
+    .menu.on .menuCelular {
+        position: absolute;
+        right: 20px;
+        top: 15px;
+    }
+
+    .menu.on .menuCelular .one {
+        transform: rotate(45deg) translate(7px, 7px);
+    }
+
+    .menu.on .menuCelular .two {
+        opacity: 0;
+    }
+
+    .menu.on .menuCelular .tree {
+        transform: rotate(-45deg) translate(3px, -3px);
+    }
+
+    .menu.on nav ul {
+        display: block;
+        text-align: center;
+    }
+
+    .menu.on nav ul li a {
+        transition-duration: 0.3s;
+        font-size: 5rem;
+        line-height: 20rem;
+        margin-left: 0;
+    }
+
+    .menu.on nav ul li a:hover {
+        transition-duration: 0.3s;
+        font-size: 6rem;
+        line-height: 15rem;
+    }
+    
 }
 
 .conteudo {
