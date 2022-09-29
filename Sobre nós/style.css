@@ -68,14 +68,18 @@ header div img:hover {
     width: 8.5rem;
 }
 
-#Lupa, #Carrinho, #Favoritos {
+#Lupa,
+#Carrinho,
+#Favoritos {
     color: white;
     filter: invert(1);
     width: 3.0rem;
     transition: 0.2s;
 }
 
-#Lupa:hover, #Carrinho:hover, #Favoritos:hover {
+#Lupa:hover,
+#Carrinho:hover,
+#Favoritos:hover {
     color: white;
     filter: invert(1);
     width: 3.3rem;
@@ -89,22 +93,26 @@ header div img:hover {
     html {
         font-size: 50%;
     }
-    
+
 }
 
 @media (max-width: 809px) {
     html {
         font-size: 40%;
     }
-    
+
 }
 
 @media (max-width: 709px) {
-    header nav, header .navIcons {
+
+    header nav,
+    header .navIcons {
         display: none;
     }
 
-    .one, .two, .tree {
+    .one,
+    .two,
+    .tree {
         background-color: #FF7800;
         height: 4px;
         width: 100%;
@@ -168,7 +176,7 @@ header div img:hover {
         font-size: 6rem;
         line-height: 15rem;
     }
-    
+
 }
 
 .conteudo {
@@ -209,7 +217,7 @@ header div img:hover {
     font-weight: 0;
     font-size: 20px;
     text-align: center;
-    color:#fff;
+    color: #fff;
 
 }
 
