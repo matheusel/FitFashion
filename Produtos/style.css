@@ -18,6 +18,7 @@ body {
 
 body {
     font-size: 1.6rem;
+    overflow-x: hidden;
 }
 
 header {

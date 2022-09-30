@@ -20,6 +20,7 @@ body {
 body {
     font-size: 1.6rem;
     background-color: #E4E4E4;
+    overflow-x: hidden;
 }
 
 header {

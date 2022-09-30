@@ -18,6 +18,7 @@ body {
 
 body {
     font-size: 1.6rem;
+    overflow-x: hidden;
 }
 
 header {
@@ -336,7 +337,7 @@ footer strong {
 
 /* Main (Gabrielli)*/
 .equipe{
-    background-color: #ff910052;
+    background-color: #E4E4E4;
     display: flex;
     align-items: center;
     justify-content: space-around;
@@ -364,7 +365,7 @@ footer strong {
     transition: 0.5s;
     text-align: center;
     flex-wrap: wrap;
-    background-color: #66666656;
+    background-color: #8F9490;
 }
 
 .img{

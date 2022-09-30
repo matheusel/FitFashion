@@ -14,10 +14,14 @@ html {
 html,
 body {
     height: 100%;
+    overflow-x: hidden;
+    
 }
 
 body {
     font-size: 1.6rem;
+    /* background: linear-gradient(0deg, rgba(254,151,72,1) 2%, rgba(234,117,48,1) 71%, rgba(243,112,32,1) 91%); */
+    background: linear-gradient(0deg, rgba(254,151,72,1) 2%, rgb(0, 0, 0));
 }
 
 header {
@@ -175,8 +179,8 @@ header div img:hover {
 
 .footer-container {
     display: flex;
-    flex-direction: row;
     position: absolute;
+    flex-direction: row;
     bottom: 0;
     background-color: #666666;
     width: 100%;
@@ -261,7 +265,6 @@ footer strong {
     .footer-container {
         display: flex;
         flex-direction: column;
-        position: fixed;
         bottom: 0;
         overflow-y: auto;
         background-color: #666666;
@@ -331,5 +334,38 @@ footer strong {
     footer strong {
         color: #FF7800;
         font-size: 1.5rem;
+    }
+}
+
+
+.main-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    margin-top: 13vh;
+}
+
+.box-container img {
+    display: flex;
+    width: 500px;
+    height: 400px;
+
+}
+
+
+@media (max-width: 709px) {
+    .box-container img {
+        width: 500px;
+        height: 400px;
+        margin-top: 7vh;
+    }
+}
+
+@media (max-width:599px) {
+    .box-container img {
+        width: 300px;
+        height: 200px;
+        margin-top: 7vh;
     }
 }
