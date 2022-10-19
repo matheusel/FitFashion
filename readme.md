@@ -1,6 +1,6 @@
 <!--Readme: Valesca -->
 <div align="center">
-<i><h6>Projeto desenvolvido para a Resilia com parceria como o Senac para o programa Programadores Cariocas.<br></br>
+<i><h6>Projeto desenvolvido para a Resilia e Senac para o programa Programadores Cariocas.<br></br>
 </div>
 
 ## 💬Projeto construído em HTML, CSS e JAVASCRIPT <br>
